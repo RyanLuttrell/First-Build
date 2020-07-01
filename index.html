@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting API Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2>Instagram</h2>
+            <button id="instagramSubmit">
+                <a href='https://api.instagram.com/oauth/authorize?client_id=600391227553911&redirect_uri=https://app.collectiveagency.ca/&scope=user_profile,user_media&response_type=code'>
+                 Authorize Instagram
+                </a>
+            </button>
+        </div>
+        <section class='stats'>
+            <div class='userName'>
+                <h2 class="">Username</h2>
+                <h4 class="" id="igUsername">@standardryan</h4>
+            </div>
+            <div class="followerCount">
+                <h2 class="" id="followerCount">Follower Count</h2>
+                <h4 class="" id="igFollowerCount">431</h4>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
